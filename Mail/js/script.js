@@ -4,7 +4,7 @@ const infoForm = document.querySelector (`form`);
 //evento submit
 infoForm.addEventListener (`submit`,
     function() {
-        //prendi e salva valore username
+        //prendi e salva valore mail
         const mailInput = document.getElementById (`mail`);
         const mail = mailInput.value;
         console.log('mail:', mail, typeof mail);
