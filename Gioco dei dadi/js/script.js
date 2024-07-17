@@ -8,10 +8,14 @@ console.log (`num. casuale generato:`, casual);
 
 //condizione di verità
 if (numUser > casual) {
-    console.log (`Hai vinto`);
+    console.log (`Il tuo valore ha vinto:`, numUser, typeof numUser);
     alert (`Hai vinto`);
 }
+else if (numUser == casual) {
+    console.log (`Il tuo valore ha pareggiato:`, numUser, typeof numUser);
+    alert (`Hai pareggiato`);
+}
 else {
-    console.log (`Hai perso`);
+    console.log (`Il tuo valore ha perso:`, numUser, typeof numUser);
     alert (`Hai perso`);
 }
